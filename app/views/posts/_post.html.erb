@@ -1,7 +1,7 @@
 <div class=post-content>
-  <%= @post.title %>
-  <%= @post.content %>
+  title:<%= @post.title %> <br>
+  content:<%= @post.content %> <br>
   <% @post.categories.each do |category| %>
-    <%= category.name %>
+    category name:<%= category.name %> <br>
   <% end %>
 </div>
